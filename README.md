@@ -30,7 +30,12 @@ def factorial(n):
     return prod
 ```
 
-After a long day of coding, the Flatiron School immersive students decide to go to a bowling alley. A bowling game has 10 rounds. The students still have the combinatorics section of the immersive course in mind, and one student is wondering how big the chance is of throwing 3 strikes first, and then no strikes at all for the next seven rounds. Use the python console below to compute this particular probability, assuming that the chance of a throwing a strike is 0.25%.
+After a long day of coding, the Flatiron School immersive students decide to go to a bowling alley to try and pull off some trick shots like this:
+
+<img src="bowling.gif">
+
+
+A bowling game has 10 rounds. The students still have the combinatorics section of the immersive course in mind, and one student is wondering how big the chance is of throwing 3 strikes first, and then no strikes at all for the next seven rounds. Use the python console below to compute this particular probability, assuming that the chance of a throwing a strike is 0.25.
 
 
 ```python
@@ -48,7 +53,7 @@ strikes_order2  # correct answer: 0.0020856857299804688
 
 The pattern should be fairly clear from here on out! Now you'll see how combinations come in handy here. You can use them along with these probabilities. Let's see how this works.
 
-Let's start with this question: what is the probability that in the course of 10 games you throw exactly 3 strikes?
+Let's start with this question: what is the probability that in the course of 10 rounds you throw exactly 3 strikes?
 
 
 ```python
